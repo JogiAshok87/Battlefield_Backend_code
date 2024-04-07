@@ -28,6 +28,17 @@ const userData = {
     totalDogtags: 720,
     };
 
+const battlepacks = [
+      { title: 'WEAPONS', current: 134, total: 185 },
+      { title: 'KITS', current: 46, total: 64 },
+      { title: 'VEHICLES', current: 77, total: 182 },
+      { title: 'MEDALS', current: 11, total: 54 },
+      { title: 'ASSIGNMENTS', current: 21, total: 110 },
+      { title: 'DOG TAGS', current: 357, total: 720 },
+       
+    ];
+  
+
   const achivements =[
     {   
         id :1,
@@ -69,6 +80,11 @@ app.get("/user", (req,res)=>{
 app.get('/achivements',(req,res)=>{
 
     res.send(achivements)
+})
+
+app.get('/battlepacks',(req,res) =>{
+
+     res.send(battlepacks)
 })
 
 app.listen(port, () => {
