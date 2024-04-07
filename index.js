@@ -29,12 +29,12 @@ const userData = {
     };
 
 const battlepacks = [
-      { title: 'WEAPONS', current: 134, total: 185 },
-      { title: 'KITS', current: 46, total: 64 },
-      { title: 'VEHICLES', current: 77, total: 182 },
-      { title: 'MEDALS', current: 11, total: 54 },
-      { title: 'ASSIGNMENTS', current: 21, total: 110 },
-      { title: 'DOG TAGS', current: 357, total: 720 },
+      { id:101, title: 'WEAPONS', current: 134, total: 185 },
+      { id:102, title: 'KITS', current: 46, total: 64 },
+      { id:103, title: 'VEHICLES', current: 77, total: 182 },
+      { id:104, title: 'MEDALS', current: 11, total: 54 },
+      { id:105, title: 'ASSIGNMENTS', current: 21, total: 110 },
+      { id:106, title: 'DOG TAGS', current: 357, total: 720 },
        
     ];
   
